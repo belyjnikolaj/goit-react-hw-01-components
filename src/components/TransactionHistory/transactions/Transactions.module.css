@@ -1,0 +1,22 @@
+.td{
+    text-align: center;
+    color: #AFB1B8;
+    border: 2px solid #dcdee5;
+}
+
+.td:last-child {
+    border-right: none;
+}
+
+.td:first-child {
+    border-left: none;
+    text-transform: capitalize;
+}
+
+.tr:nth-child(2n) {
+    background-color: #ede6e6;
+}
+
+.tr:nth-child(2n+1) {
+    background-color: #fff;
+}

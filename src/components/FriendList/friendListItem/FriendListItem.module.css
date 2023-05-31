@@ -1,0 +1,43 @@
+.status {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.status.red{
+background-color: red;
+}
+
+.status.green {
+    background-color: green;
+}
+
+
+.item{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+        
+}
+
+.avatar{
+    width: 80px;
+    background-color: rgb(110, 110, 202);
+    border-radius: 10px;
+}
+.name{
+    font-size: 24px;
+    font-weight: 700;
+    width: 150px;
+}
+

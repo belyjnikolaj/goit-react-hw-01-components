@@ -1,0 +1,30 @@
+.stats {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #e9ebf0;
+    border: 1px solid #AFB1B8;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+    border-right: 1px solid #AFB1B8;  
+}
+.item:last-child{
+    border-right: none;
+}
+.label{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #AFB1B8;
+}
+.quantity{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
