@@ -1,12 +1,12 @@
-import Profile from './Profile/profile';
-import Statistics from './Statistics/statistics';
-import FriendList from './FriendList/friendList';
-import TransactionHistory from './TransactionHistory/transactionHistory';
+import Profile from 'components/profile';
+import Statistics from 'components/statistics';
+import FriendList from 'components/friendList';
+import TransactionHistory from 'components/transactionHistory';
 import css from './App.module.css'
-import user from 'path/to/user.json';
-import friends from 'path/to/friends'
-import transactions from 'path/to/transactions';
-import data from 'path/to/data.json';
+import user from 'path/user';
+import friends from 'path/friends'
+import transactions from 'path/transactions';
+import data from 'path/data';
 export const App = () => {
   return (
     <div className={css.app_container}>

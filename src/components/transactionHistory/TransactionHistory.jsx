@@ -1,5 +1,5 @@
 
-import Transactions from '../transactions';
+import Transactions from 'components/transactions';
 import React from 'react';
 import css from './TransactionHistory.module.css';
 const TransactionHistory = ({items}) => {

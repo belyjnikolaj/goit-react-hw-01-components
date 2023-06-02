@@ -12,7 +12,6 @@ const StatList = ({ stats }) => {
       ))}
       </ul>
     ); 
-  
 }
 StatList.propTypes = {
   stats: PropTypes.shape({

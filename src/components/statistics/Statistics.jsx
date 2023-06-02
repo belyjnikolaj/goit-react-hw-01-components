@@ -1,5 +1,5 @@
 
-import Stats from '../stats';
+import Stats from 'components/stats';
 
 import css from './Statistics.module.css';
 

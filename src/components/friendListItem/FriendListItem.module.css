@@ -13,7 +13,6 @@ background-color: red;
     background-color: green;
 }
 
-
 .item{
     display: flex;
     justify-items: center;
@@ -26,8 +25,7 @@ background-color: red;
     background-color: #fff;
     box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-        
+        0px 2px 1px rgba(0, 0, 0, 0.2);       
 }
 
 .avatar{
@@ -35,9 +33,9 @@ background-color: red;
     background-color: rgb(110, 110, 202);
     border-radius: 10px;
 }
+
 .name{
     font-size: 24px;
     font-weight: 700;
     width: 150px;
 }
-

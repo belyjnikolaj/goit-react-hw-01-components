@@ -1,4 +1,4 @@
-import StatList from '../statList';
+import StatList from 'components/profile_statList';
 import css from './Profile.module.css';
 import PropTypes from 'prop-types';
 const Profile = ({username, tag, location, avatar, stats}) => {
@@ -14,7 +14,6 @@ const Profile = ({username, tag, location, avatar, stats}) => {
     </div>
   );
 }
-
 
 Profile.propTypes = {
   tag: PropTypes.string.isRequired,
